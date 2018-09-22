@@ -87,12 +87,7 @@ int main(){
 					}
 
 					Invisible -> Print();
-				}// Fin del scope case 1 switch(option)
-				break;
-			case 5:
-				{// Inicio del scope case 5 switch(option)
-
-				}// Fin del scope case 5 switch(option)
+				}// Fin del scope case 1 switch(option))
 				break;
 			default:
 				cout << "Opcion Invalida " << endl;

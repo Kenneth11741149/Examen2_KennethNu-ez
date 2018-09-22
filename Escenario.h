@@ -83,7 +83,7 @@ public:
 		int tempcolumna = 0;
 		string fakemarca;
 		if(movement.compare("W") == 0){
-			cout << "Compared W" << endl;
+			
 			for(int i = 0; i < 11; i++){
 				for(int j = 0; j < 13; j++){
 					if(dynamic_cast<Jugador*>(matriz[i][j])){
@@ -101,7 +101,7 @@ public:
 				}
 			}
 		} else if(movement.compare("S") == 0){
-			cout << "Compared S" << endl;
+			
 			for(int i = 0; i < 11; i++){
 				for(int j = 0; j < 13; j++){
 					if(dynamic_cast<Jugador*>(matriz[i][j])){
@@ -121,7 +121,7 @@ public:
 			}
 		} else if(movement.compare("A") == 0){
 
-			cout << "Compared A" << endl;
+		
 			for(int i = 0; i < 11; i++){
 				for(int j = 0; j < 13; j++){
 					if(dynamic_cast<Jugador*>(matriz[i][j])){
@@ -145,7 +145,7 @@ public:
 		} else if(movement.compare("D") == 0){
 
 
-			cout << "Compared D" << endl;
+			
 			for(int i = 0; i < 11; i++){
 				for(int j = 0; j < 13; j++){
 					if(dynamic_cast<Jugador*>(matriz[i][j])){
